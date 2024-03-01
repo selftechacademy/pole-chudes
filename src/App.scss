@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: cadetblue;
+  height: 100vh;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 1rem;
+
+  &__questions {
+    background-color: tomato;
+  }
+  &__answers {
+    background-color: tomato;
+  }
+}
